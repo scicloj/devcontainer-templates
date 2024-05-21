@@ -44,7 +44,7 @@
 
 	"postAttachCommand":
 	{ "ide-setup": ["bash", "-c", "if [ -f \"/home/vscode/.setup-ide/setup-ide.sh\" ]; then /home/vscode/.setup-ide/setup-ide.sh; fi"],
-	  "prepare": ["bash","-c", "-i", "./.devcontainer/setup.sh"]
+	  "prepare": ["bash","-c", "-i", "source ./.devcontainer/setup.sh"]
       
 
 	}
