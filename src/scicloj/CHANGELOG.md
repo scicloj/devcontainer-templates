@@ -1,4 +1,6 @@
 # unreleased
+- true color for emacs -nw
+
 # 1.0.4
 - use setup.sh script
 
