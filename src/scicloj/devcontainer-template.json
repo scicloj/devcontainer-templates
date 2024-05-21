@@ -1,14 +1,14 @@
 {
-    "id": "hello",
+    "id": "scicloj",
     "version": "1.0.0",
-    "name": "Hello, World",
-    "description": "A hello world Template",
-    "documentationURL": "https://github.com/devcontainers/template-starter/tree/main/src/hello",
-    "licenseURL": "https://github.com/devcontainers/template-starter/blob/main/LICENSE",
+    "name": "scicloj template",
+    "description": "A scicloj Template",
+    "documentationURL": "https://github.com/scicloj/devcontainer-templates/tree/main/src/scicloj",
+    "licenseURL": "https://github.com/scicloj/devcontainer-templates/blob/main/LICENSE",
     "options": {
         "imageVariant": {
             "type": "string",
-            "description": "Ubuntu version (use ubuntu-22.04 or ubuntu-18.04 on local arm64/Apple Silicon):",
+            "description": "Ubuntu version:",
             "proposals": [
                 "jammy",
                 "focal",
@@ -16,17 +16,23 @@
             ],
             "default": "jammy"
         },
-        "greeting": {
+        "temurinJdkVersion": {
             "type": "string",
-            "description": "Select a pre-made greeting, or enter your own",
+            "description": "Temurin JDK version",
             "proposals": [
-                "hey",
-                "hello",
-                "hi",
-                "howdy"
+                "22"
             ],
-            "default": "hey"
+            "default": "22"
+        },
+        "clojureVersion": {
+            "type": "string",
+            "description": "Clojure version",
+            "proposals": [
+                "1.11.3.1456"
+            ],
+            "default": "1.11.3.1456"
         }
+
     },
     "platforms": [
         "Any"
