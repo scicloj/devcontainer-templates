@@ -1,6 +1,6 @@
 {
     "id": "scicloj",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "name": "scicloj template",
     "description": "A scicloj Template",
     "documentationURL": "https://github.com/scicloj/devcontainer-templates/tree/main/src/scicloj",

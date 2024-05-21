@@ -1,4 +1,5 @@
 src/scicloj/.cpcache/
 src/scicloj/.clj-kondo
 src/scicloj/poetry.lock
-/src/scicloj/.lsp/
+src/scicloj/.lsp/
+src/scicloj/.devcontainer/.devpod-internal
