@@ -1,5 +1,8 @@
 # unreleased
 
+# 1.0.6 
+- moved to postAttach
+
 # 1.0.5
 - true color for emacs -nw
 
