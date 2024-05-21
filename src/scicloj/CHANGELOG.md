@@ -1,4 +1,6 @@
 # unreleased
+# 1.0.4
+- use setup.sh script
 
 # 1.0.3
 - added clojure -P to startup
