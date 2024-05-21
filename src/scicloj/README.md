@@ -1,7 +1,7 @@
 
-# scicloj template (scicloj)
+# scicloj datascience devcontainer template (scicloj)
 
-A scicloj Template
+A devcontainer template supporting Clojure datascience with R and python interop
 
 ## Options
 
