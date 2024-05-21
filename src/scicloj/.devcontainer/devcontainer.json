@@ -44,6 +44,7 @@
 
 	"postStartCommand":
 	{ "ide-setup": "bash -c 'if [ -f \"/home/vscode/.setup-ide/setup-ide.sh\" ]; then /home/vscode/.setup-ide/setup-ide.sh; fi'",
+	  "clojure prepare": "bash -i -c 'clj -Sthreads 1 -P'",
       "poetry setup":  "bash -i -c 'mkdir -p .venv && poetry install'"
 
 	}
