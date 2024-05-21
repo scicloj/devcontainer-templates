@@ -1,5 +1,12 @@
 # unreleased
 
+# 1.0.8
+- fixed alias
+
+# 1.0.7
+- fixed xterm14bit  setup
+- added alias for emacs to use 24bit
+
 # 1.0.6 
 - moved to postAttach
 
