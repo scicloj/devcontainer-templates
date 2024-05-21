@@ -1,17 +1,18 @@
 
-# Hello, World (hello)
+# scicloj template (scicloj)
 
-A hello world Template
+A scicloj Template
 
 ## Options
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| imageVariant | Ubuntu version (use ubuntu-22.04 or ubuntu-18.04 on local arm64/Apple Silicon): | string | jammy |
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
+| imageVariant | Ubuntu version: | string | jammy |
+| temurinJdkVersion | Temurin JDK version | string | 22 |
+| clojureVersion | Clojure version | string | 1.11.3.1456 |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/devcontainers/template-starter/blob/main/src/hello/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/scicloj/devcontainer-templates/blob/main/src/scicloj/devcontainer-template.json).  Add additional notes to a `NOTES.md`._

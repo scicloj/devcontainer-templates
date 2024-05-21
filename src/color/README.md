@@ -14,4 +14,4 @@ A Template to remind you of your favorite color
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/devcontainers/template-starter/blob/main/src/color/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/scicloj/devcontainer-templates/blob/main/src/color/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
