@@ -7,9 +7,7 @@ A devcontainer template supporting Clojure datascience with R and python interop
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| imageVariant | Ubuntu version: | string | jammy |
-| temurinJdkVersion | Temurin JDK version | string | 22 |
-| clojureVersion | Clojure version | string | 1.11.3.1456 |
+| imageTag | Tag of officlai Clojure image | string | temurin-21-tools-deps-1.11.3.1456-jammy |
 
 # A template project featuring a devcontainer setup for Datascience with Clojure using several libraries from [scicloj](https://scicloj.github.io/)
 
@@ -23,6 +21,9 @@ It sets up an dev container environment with several tool s and libaries for dat
 3. "jack in" inside the devcontainer
 4. Enjoy Clojure and R  + python from Clojure  (using ClojisR + libpython-clj)
 
+## template options:
+image-tag: ubuntu LTS only and Java LTS 8,11,17,21 and if released on Dockerhub
+default image-tag: lastet ubuntu LTS + latest supported LTS JDK + latest released clojure (and available on Dockerhub)
 ## Customization
 
 5. Customize libraries
