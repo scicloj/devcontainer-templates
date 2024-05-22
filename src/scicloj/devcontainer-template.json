@@ -8,7 +8,7 @@
     "options": {
         "imageTag": {
             "type": "string",
-            "description": "Tag of officlai Clojure image",
+            "description": "Tag of official Clojure image",
 
             "proposals": [
 
