@@ -1,36 +1,18 @@
 {
     "id": "scicloj",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "name": "scicloj template",
     "description": "A scicloj Template",
     "documentationURL": "https://github.com/scicloj/devcontainer-templates/tree/main/src/scicloj",
     "licenseURL": "https://github.com/scicloj/devcontainer-templates/blob/main/LICENSE",
     "options": {
-        "imageVariant": {
+        "imageTag": {
             "type": "string",
-            "description": "Ubuntu version:",
+            "description": "Tag of officlai Clojure image",
             "proposals": [
-                "jammy",
-                "focal",
-                "bionic"
+                "temurin-21-tools-deps-1.11.3.1456-jammy"
             ],
-            "default": "jammy"
-        },
-        "temurinJdkVersion": {
-            "type": "string",
-            "description": "Temurin JDK version",
-            "proposals": [
-                "22"
-            ],
-            "default": "22"
-        },
-        "clojureVersion": {
-            "type": "string",
-            "description": "Clojure version",
-            "proposals": [
-                "1.11.3.1456"
-            ],
-            "default": "1.11.3.1456"
+            "default": "temurin-21-tools-deps-1.11.3.1456-jammy"
         }
 
     },

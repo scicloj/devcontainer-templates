@@ -1,5 +1,9 @@
 # unreleased
 
+# 1.0.9
+- added tests
+- use image tags for clojure varinat
+
 # 1.0.8
 - fixed alias
 
