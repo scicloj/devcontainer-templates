@@ -22,7 +22,7 @@
 		"ghcr.io/wxw-matt/devcontainer-features/command_runner:latest": {
             "command1": "bash < <(curl -s https://raw.githubusercontent.com/clojure-lsp/clojure-lsp/master/install)",
             "command2": "bash < <(curl -s https://raw.githubusercontent.com/babashka/babashka/master/install)",
-			"command3": "bash < <(curl -s https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein)"
+			"command3": "bash -c 'wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein -O /usr/local/bin/lein && chmod +x /usr/local/bin/lein'"
         }
 	},
 	"forwardPorts": [6080,12345],

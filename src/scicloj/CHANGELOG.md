@@ -1,5 +1,9 @@
 # unreleased
 
+# 1.0.10
+- more optsion
+- fixed lein install
+
 # 1.0.9
 - added tests
 - use image tags for clojure varinat
