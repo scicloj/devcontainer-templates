@@ -14,4 +14,4 @@ A hello world Template
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/devcontainers/template-starter/blob/main/src/hello/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/scicloj/devcontainer-templates/blob/main/src/hello/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
