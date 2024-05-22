@@ -10,6 +10,9 @@ It sets up an dev container environment with several tool s and libaries for dat
 3. "jack in" inside the devcontainer
 4. Enjoy Clojure and R  + python from Clojure  (using ClojisR + libpython-clj)
 
+## template options:
+image-tag: ubuntu LTS only and Java LTS 8,11,17,21 and if released on Dockerhub
+default image-tag: lastet ubuntu LTS + latest supported LTS JDK + latest released clojure (and available on Dockerhub)
 ## Customization
 
 5. Customize libraries

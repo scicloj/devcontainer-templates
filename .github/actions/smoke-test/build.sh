@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 TEMPLATE_ID="$1"
 
 set -e
