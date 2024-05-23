@@ -1,6 +1,5 @@
 name: "CI - Test Templates"
-on:
-  pull_request:
+on: push
 
 jobs:
   detect-changes:
