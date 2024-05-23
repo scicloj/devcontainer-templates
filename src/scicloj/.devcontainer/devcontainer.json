@@ -17,13 +17,19 @@
 		"ghcr.io/devcontainers-contrib/features/poetry:2": {},
 		"ghcr.io/rocker-org/devcontainer-features/r-packages:1": {
 			"packages": "Rserve",
-			"additionalRepositories": "rforge= 'https://rforge.net'"
+			"additionalRepositories": "rforge= 'https://rforge.net'",
+			"installSystemRequirements": true
 		},
 		"ghcr.io/wxw-matt/devcontainer-features/command_runner:latest": {
-            "command1": "bash < <(curl -s https://raw.githubusercontent.com/clojure-lsp/clojure-lsp/master/install)",
-            "command2": "bash < <(curl -s https://raw.githubusercontent.com/babashka/babashka/master/install)",
+                        "command1": "bash < <(curl -s https://raw.githubusercontent.com/clojure-lsp/clojure-lsp/master/install)",
+                        "command2": "bash < <(curl -s https://raw.githubusercontent.com/babashka/babashka/master/install)",
 			"command3": "bash -c 'wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein -O /usr/local/bin/lein && chmod +x /usr/local/bin/lein'"
-        }
+                },
+	        "overrideFeatureInstallOrder": [
+                       "ghcr.io/rocker-org/devcontainer-features/r-apt",
+	               "ghcr.io/devcontainers-contrib/features/apt-get-packages",
+ 	               "ghcr.io/rocker-org/devcontainer-features/r-packages"
+                ]	
 	},
 	"forwardPorts": [6080,12345],
 	"portsAttributes": {
