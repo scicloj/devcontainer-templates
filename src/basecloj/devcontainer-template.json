@@ -1,8 +1,8 @@
 {
     "id": "basecloj",
     "version": "1.0.0",
-    "name": "base clojure development environment",
-    "description": "Base line devcontainer to start a new clojure project.",
+    "name": "Base clojure development environment",
+    "description": "A devcontainer template with the minimum clojure tools and configuration, this template is intended to create new greenfield clojure project that should be further customised on specific project needs. ",
     "documentationURL": "https://github.com/scicloj/devcontainer-templates/tree/main/src/basecloj",
     "licenseURL": "https://github.com/scicloj/devcontainer-templates/blob/main/LICENSE",
     "platforms": [
