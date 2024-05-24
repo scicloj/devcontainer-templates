@@ -45,5 +45,3 @@ It sets up a minimal dev container environment with green fields minimal tools f
 5. Install more features in devcontainer: https://containers.dev/features
 
 ---
-
-
