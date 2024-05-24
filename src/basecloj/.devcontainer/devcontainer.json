@@ -1,0 +1,21 @@
+{
+    "name": "Base clojure dev env",
+	"build": {
+		"dockerfile": "Dockerfile",
+        "args": { "USERNAME": "${localEnv:USER}"}
+	},
+    "runArgs": ["--security-opt", "seccomp=unconfined"],
+	"remoteUser": "${localEnv:USER}",
+	"containerUser": "${localEnv:USER}",
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/sshd:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"betterthantomorrow.calva"
+			]
+		}
+	}
+}

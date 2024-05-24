@@ -1,0 +1,11 @@
+{
+    "id": "basecloj",
+    "version": "1.0.0",
+    "name": "base clojure development environment",
+    "description": "Base line devcontainer to start a new clojure project.",
+    "documentationURL": "https://github.com/scicloj/devcontainer-templates/tree/main/src/basecloj",
+    "licenseURL": "https://github.com/scicloj/devcontainer-templates/blob/main/LICENSE",
+    "platforms": [
+        "Any"
+    ]
+}
