@@ -8,15 +8,10 @@
 			"USERNAME": "${localEnv:USER}"
 		}
 	},
-	"runArgs": [
-		"--security-opt",
-		"seccomp=unconfined"
-	],
 	"remoteUser": "${localEnv:USER}",
 	"containerUser": "${localEnv:USER}",
 	"features": {
-		"ghcr.io/devcontainers/features/git:1": {},
-		"ghcr.io/devcontainers/features/sshd:1": {}
+		"ghcr.io/devcontainers/features/git:1": {}
 	},
 	"customizations": {
 		"vscode": {
