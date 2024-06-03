@@ -1,4 +1,7 @@
 # unreleased
+# 1.0.12
+- fixes overrideFeatureInstallOrder place
+
 # 1.0.11
 - added r-base-dev
 - and order
