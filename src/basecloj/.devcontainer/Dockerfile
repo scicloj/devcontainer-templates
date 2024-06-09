@@ -1,4 +1,4 @@
-FROM clojure:temurin-21-tools-deps-jammy
+FROM clojure:${templateOption:imageTag}
 
 ARG USERNAME=vscode
 ARG USER_UID=1000
