@@ -1,0 +1,24 @@
+{
+    "id": "basecloj",
+    "version": "1.0.0",
+    "name": "Base clojure development environment",
+    "description": "A devcontainer template with the minimum clojure tools and configuration, this template is intended to create new greenfield clojure project that should be further customised on specific project needs. ",
+    "documentationURL": "https://github.com/scicloj/devcontainer-templates/tree/main/src/basecloj",
+    "licenseURL": "https://github.com/scicloj/devcontainer-templates/blob/main/LICENSE",
+    "options": {
+        "imageTag": {
+            "type": "string",
+            "description": "Tag of official Clojure image",
+            "proposals": [
+                "temurin-8-tools-deps-jammy",
+                "temurin-11-tools-deps-jammy",
+                "temurin-17-tools-deps-jammy",
+                "temurin-21-tools-deps-jammy"                
+            ],
+            "default": "temurin-21-tools-deps-jammy"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}

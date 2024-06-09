@@ -12,9 +12,8 @@ jobs:
         id: filter
         with:
           filters: |
-            color: ./**/color/**
-            hello: ./**/hello/**
             scicloj: ./**/scicloj/**
+            basecloj: ./**/basecloj/**
             
 
   test:
