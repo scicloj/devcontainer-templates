@@ -1,9 +1,9 @@
 {
     "id": "basecloj",
-    "version": "1.0.0",
-    "name": "Base clojure development environment",
-    "description": "A devcontainer template with the minimum clojure tools and configuration, this template is intended to create new greenfield clojure project that should be further customised on specific project needs. ",
-    "documentationURL": "https://github.com/scicloj/devcontainer-templates/tree/main/src/basecloj",
+    "version": "1.0.1",
+    "name": "Minimal devcontainer with LTS JAVA, official Clojure and clj tools",
+    "description": "This template set up a minimal devcontainer environment for new Clojure projects.",
+    "documentationURL": "https://github.com/scicloj/devcontainer-templates/tree/main/src/basecloj/NOTES.md",
     "licenseURL": "https://github.com/scicloj/devcontainer-templates/blob/main/LICENSE",
     "options": {
         "imageTag": {

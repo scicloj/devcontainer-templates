@@ -7,7 +7,7 @@ A devcontainer template supporting Clojure datascience with R and python interop
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| imageTag | Tag of officlai Clojure image | string | temurin-21-tools-deps-1.11.3.1456-jammy |
+| imageTag | Tag of official Clojure image | string | temurin-21-tools-deps-1.11.3.1456-jammy |
 
 # A template project featuring a devcontainer setup for Datascience with Clojure using several libraries from [scicloj](https://scicloj.github.io/)
 
@@ -91,4 +91,4 @@ My `setup-ide.sh` configures Doom Emacs with my personal configuration.
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/scicloj/devcontainer-templates/blob/main/src/scicloj/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/marcitqualab/devcontainer-templates/blob/main/src/scicloj/devcontainer-template.json).  Add additional notes to a `NOTES.md`._

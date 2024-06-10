@@ -1,14 +1,3 @@
-
-# Minimal devcontainer with LTS JAVA, official Clojure and clj tools (basecloj)
-
-This template set up a minimal devcontainer environment for new Clojure projects.
-
-## Options
-
-| Options Id | Description | Type | Default Value |
-|-----|-----|-----|-----|
-| imageTag | Tag of official Clojure image | string | temurin-21-tools-deps-jammy |
-
 # Minimal devcontainer with LTS JAVA, official Clojure and clj tools
 
 This template set up a minimal devcontainer environment for new Clojure projects.
@@ -49,8 +38,3 @@ devcontainer templates apply --workspace-folder . \
 * Choose other base images from the imageTag list of [devcontainer-template.json](devcontainer-template.json) 
 
 * Install more features in devcontainer: https://containers.dev/features
-
-
----
-
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/marcitqualab/devcontainer-templates/blob/main/src/basecloj/devcontainer-template.json).  Add additional notes to a `NOTES.md`._

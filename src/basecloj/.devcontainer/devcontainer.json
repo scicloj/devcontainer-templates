@@ -5,6 +5,7 @@
 	"build": {
 		"dockerfile": "Dockerfile",
 		"args": {
+			"BASE_IMAGE": "${templateOption:imageTag}",
 			"USERNAME": "${localEnv:USER}"
 		}
 	},
