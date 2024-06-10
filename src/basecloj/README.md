@@ -12,7 +12,7 @@ Required: Install DevContainer VSCode extension and run the command. `(Shift+Crt
 
 ```bash
 devcontainer templates apply --workspace-folder . \
---template-id ghcr.io/marcitqualab/devcontainer-templates/basecloj:latest
+--template-id ghcr.io/scicloj/devcontainer-templates/basecloj:latest
 
 # Optionally, add another line to select the base image 
 \
