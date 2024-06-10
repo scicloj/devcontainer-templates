@@ -53,4 +53,4 @@ devcontainer templates apply --workspace-folder . \
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/marcitqualab/devcontainer-templates/blob/main/src/basecloj/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/scicloj/devcontainer-templates/blob/main/src/basecloj/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
