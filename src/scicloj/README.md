@@ -91,4 +91,4 @@ My `setup-ide.sh` configures Doom Emacs with my personal configuration.
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/scicloj/devcontainer-templates/blob/main/src/scicloj/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/marcitqualab/devcontainer-templates/blob/main/src/scicloj/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
