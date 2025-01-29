@@ -1,7 +1,6 @@
 # Clojure SciCloj Dev Container Templates:
 
-> This repo provides a starting point and example for creating Clojure custom [Dev Container Templates](https://containers.dev/implementors/templates), hosted for free on SciCloj GitHub Container Registry. 
-
+Devcontainer templates containing Clojure
 
 ## Repo and Template Structure
 
