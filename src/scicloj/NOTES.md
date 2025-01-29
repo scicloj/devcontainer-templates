@@ -73,6 +73,9 @@ My `setup-ide.sh` configures Doom Emacs with my personal configuration.
 
 # Version history 
 
+## 1.1.1
+- fixed default image
+
 ## 1.1.0
 - removed CHANGELOG.md , text is now in NOTES.md
 - deps.edn depends on org.scicloj/noj-2-beta5.1
