@@ -7,7 +7,7 @@ A devcontainer template supporting Clojure datascience with R and python interop
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| imageTag | Tag of official Clojure image | string | temurin-21-tools-deps-1.11.3.1456-jammy |
+| imageTag | Tag of official Clojure image | string | clojure:temurin-21-tools-deps-1.12.0.1495-jammy |
 
 # A template project featuring a devcontainer setup for Datascience with Clojure using several libraries from [scicloj](https://scicloj.github.io/)
 
@@ -81,6 +81,52 @@ This can do "whatever" to configure Emacs from your own configuration.
 
 My `setup-ide.sh` configures Doom Emacs with my personal configuration.
 
+
+# Version history 
+
+## 1.1.1
+- fixed default image
+
+## 1.1.0
+- removed CHANGELOG.md , text is now in NOTES.md
+- deps.edn depends on org.scicloj/noj-2-beta5.1
+- updated Clojure image versions (1.12 now)
+- upgraded python + pandas
+
+## 1.0.12
+- fixes overrideFeatureInstallOrder place
+
+## 1.0.11
+- added r-base-dev
+- and order
+
+## 1.0.10
+- more optsion
+- fixed lein install
+
+## 1.0.9
+- added tests
+- use image tags for clojure varinat
+
+## 1.0.8
+- fixed alias
+
+## 1.0.7
+- fixed xterm14bit  setup
+- added alias for emacs to use 24bit
+
+## 1.0.6 
+- moved to postAttach
+
+## 1.0.5
+- true color for emacs -nw
+
+## 1.0.4
+- use setup.sh script
+
+## 1.0.3
+- added clojure -P to startup
+- added launchpad
 
 
 
