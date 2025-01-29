@@ -1,6 +1,6 @@
 {
     "id": "scicloj",
-    "version": "1.0.12",
+    "version": "1.1.0",
     "name": "scicloj datascience devcontainer template",
     "description": "A devcontainer template supporting Clojure datascience with R and python interop",
     "documentationURL": "https://github.com/scicloj/devcontainer-templates/tree/main/src/scicloj",

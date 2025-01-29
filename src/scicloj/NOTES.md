@@ -73,7 +73,7 @@ My `setup-ide.sh` configures Doom Emacs with my personal configuration.
 
 # Version history 
 
-## unreleased
+## 1.1.0
 - removed CHANGELOG.md , text is now in NOTES.md
 - deps.edn depends on org.scicloj/noj-2-beta5.1
 - updated Clojure image versions (1.12 now)
