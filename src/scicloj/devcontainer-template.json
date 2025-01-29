@@ -1,6 +1,6 @@
 {
     "id": "scicloj",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "name": "scicloj datascience devcontainer template",
     "description": "A devcontainer template supporting Clojure datascience with R and python interop",
     "documentationURL": "https://github.com/scicloj/devcontainer-templates/tree/main/src/scicloj",
@@ -11,14 +11,14 @@
             "description": "Tag of official Clojure image",
 
             "proposals": [
-                "clojure:temurin-8-tools-deps-1.12.0.1495-jammy",
-                "clojure:temurin-11-tools-deps-1.12.0.1495-jammy",
-                "clojure:temurin-17-tools-deps-1.12.0.1495-jammy",
-                "clojure:temurin-21-tools-deps-1.12.0.1495-jammy"
+                "temurin-8-tools-deps-1.12.0.1495-jammy",
+                "temurin-11-tools-deps-1.12.0.1495-jammy",
+                "temurin-17-tools-deps-1.12.0.1495-jammy",
+                "temurin-21-tools-deps-1.12.0.1495-jammy"
 
             ],
 
-            "default": "clojure:temurin-21-tools-deps-1.12.0.1495-jammy"
+            "default": "temurin-21-tools-deps-1.12.0.1495-jammy"
         }
 
     },
