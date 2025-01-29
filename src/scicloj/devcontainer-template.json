@@ -11,16 +11,10 @@
             "description": "Tag of official Clojure image",
 
             "proposals": [
-
-                "temurin-8-tools-deps-1.11.3.1456-jammy",
-                "temurin-11-tools-deps-1.11.3.1456-jammy",
-                "temurin-17-tools-deps-1.11.3.1456-jammy",
-                "temurin-21-tools-deps-1.11.3.1456-jammy",
-
-                "temurin-8-tools-deps-1.11.1.1435-jammy",
-                "temurin-11-tools-deps-1.11.1.1435-jammy",
-                "temurin-17-tools-deps-1.11.1.1435-jammy",
-                "temurin-21-tools-deps-1.11.1.1435-jammy"
+                "clojure:temurin-8-tools-deps-1.12.0.1495-jammy",
+                "clojure:temurin-11-tools-deps-1.12.0.1495-jammy",
+                "clojure:temurin-17-tools-deps-1.12.0.1495-jammy",
+                "clojure:temurin-21-tools-deps-1.12.0.1495-jammy",
 
             ],
 
