@@ -1,6 +1,6 @@
 {
     "id": "basecloj",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "name": "Minimal devcontainer with LTS JAVA, official Clojure and clj tools",
     "description": "This template set up a minimal devcontainer environment for new Clojure projects.",
     "documentationURL": "https://github.com/scicloj/devcontainer-templates/tree/main/src/basecloj/NOTES.md",
