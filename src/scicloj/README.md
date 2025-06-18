@@ -83,6 +83,8 @@ My `setup-ide.sh` configures Doom Emacs with my personal configuration.
 
 
 # Version history 
+## 1.1.3
+- fixed feature names from 'contrib' -> 'extra'
 
 ## 1.1.2
 - fixed image names
