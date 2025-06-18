@@ -1,7 +1,13 @@
-# Clojure SciCloj Dev Container Templates:
+# Clojure  Dev Container Templates:
 
-> This repo provides a starting point and example for creating Clojure custom [Dev Container Templates](https://containers.dev/implementors/templates), hosted for free on SciCloj GitHub Container Registry. 
+This repo contains devcontainer templates containing Clojure.
 
+They can be used from VsCode or devcontainer-cli to create new repositories with a 'devcontainer' config containing Clojure.
+
+We provide two templates:
+
+- basecloj:  Containing only Clojure
+- scicloj: Containg Clojure, R , python and a quickstart deps.end containing [noj](https://github.com/scicloj/noj) , ready for DataScience
 
 ## Repo and Template Structure
 
