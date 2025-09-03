@@ -22,7 +22,7 @@
   
   (py-req/require-python '[pandas :as pd]
                          '[io :refer [StringIO]])
-  (def df (pd/read_csv (StringIO "a,b,c\n1,2,3\n4,5,6")))
+  (def df (pd/read_csv (StringIO "a,b,c\n1,2,3\n4,5,6"))))
 
 
 (comment
