@@ -3,7 +3,7 @@ cd $(dirname "$0")
 source test-utils.sh
 
 # Template specific tests
-check "distro" lsb_release -c
+check "distro" cat /etc/os-release
 check "clj" clj --version
 check "uv" uv --version
 check "R" R --version
