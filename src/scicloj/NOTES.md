@@ -54,7 +54,7 @@ BREAKING CHANGE:
 - removed poetry
 - removed emacs
 - removed vnc
-- remooved rstudio server
+- removed rstudio server
 - added uv
 - use Clojure 1.12.2.1565 images
 
