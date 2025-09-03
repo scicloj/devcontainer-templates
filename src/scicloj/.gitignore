@@ -1,0 +1,10 @@
+.lsp
+.cpcache
+.clj-kondo
+.RData
+.Rhistory
+.calva
+.classes
+uv.lock
+classes
+.nrepl-port
