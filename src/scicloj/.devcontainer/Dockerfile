@@ -1,5 +1,4 @@
-#FROM clojure:${templateOption:imageTag}
-FROM clojure:temurin-21-tools-deps-1.12.2.1565-jammy
+FROM clojure:${templateOption:imageTag}
 ARG USERNAME=vscode
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
