@@ -1,0 +1,5 @@
+uv.lock
+.cpcache
+classes
+.nrepl-port
+.venv

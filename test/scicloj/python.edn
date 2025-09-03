@@ -1,0 +1,4 @@
+{
+ :python-executable ".venv/bin/python" ; Linux
+ ;:python-executable ".venv/Scripts/python" ; Windows
+ }
