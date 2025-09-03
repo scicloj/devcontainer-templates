@@ -1,5 +1,5 @@
-FROM clojure:${templateOption:imageTag}
-
+#FROM clojure:${templateOption:imageTag}
+FROM clojure:temurin-21-tools-deps-1.12.2.1565-jammy
 ARG USERNAME=vscode
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
@@ -23,3 +23,4 @@ USER $USERNAME
 SHELL ["/bin/bash", "-ec"]
 ENTRYPOINT ["bash"]
 
+\
