@@ -8,3 +8,4 @@
 uv.lock
 classes
 .nrepl-port
+.venv
