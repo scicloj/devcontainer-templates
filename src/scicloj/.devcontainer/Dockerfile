@@ -1,5 +1,4 @@
 FROM clojure:${templateOption:imageTag}
-
 ARG USERNAME=vscode
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
@@ -23,3 +22,4 @@ USER $USERNAME
 SHELL ["/bin/bash", "-ec"]
 ENTRYPOINT ["bash"]
 
+\
