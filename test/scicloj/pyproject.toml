@@ -1,7 +1,6 @@
 [project]
-name = "scicloj"
+name = "scicloj-test"
 version = "0.1.0"
 description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.1.17"
-dependencies = []
+requires-python = "==3.10.17"
+dependencies = ['pandas']
