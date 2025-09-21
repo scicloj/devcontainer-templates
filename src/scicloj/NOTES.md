@@ -49,6 +49,11 @@ The provided devcontainer.json installs in the devcontainer:
 
 
 # Version history 
+
+## 2.0.1
+fixed setup.sh invocation
+
+
 ## 2.0.0
 BREAKING CHANGE:
 - removed poetry
