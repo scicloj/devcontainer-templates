@@ -58,8 +58,11 @@ The provided devcontainer.json installs in the devcontainer:
 * lsp
 
 
-
 # Version history 
+
+## 2.0.2
+fixed quickstart code
+
 
 ## 2.0.1
 fixed setup.sh invocation
