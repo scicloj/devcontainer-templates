@@ -32,7 +32,7 @@
 
 	"onCreateCommand":
 	{ 
-	  "prepare": "./.devcontainer/setup.sh"
+	  "prepare": "bash ./.devcontainer/setup.sh"
       
 
 	}
