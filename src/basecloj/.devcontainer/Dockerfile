@@ -1,7 +1,7 @@
 ARG BASE_IMAGE=temurin-21-tools-deps-jammy
 FROM clojure:${BASE_IMAGE}
 
-ARG USERNAME=vscode
+ENV USERNAME=vscode
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
     
