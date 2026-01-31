@@ -22,4 +22,3 @@ USER $USERNAME
 SHELL ["/bin/bash", "-ec"]
 ENTRYPOINT ["bash"]
 
-\
