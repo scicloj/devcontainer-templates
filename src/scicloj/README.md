@@ -60,6 +60,10 @@ The provided devcontainer.json installs in the devcontainer:
 
 # Version history 
 
+## 2.0.3
+fixed '\'
+
+
 ## 2.0.2
 fixed quickstart code
 
